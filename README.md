@@ -37,14 +37,6 @@ Indie hacking is my space for following an idea far enough to make it tangible: 
 
 Game development brings out the playful side: mechanics to explore, interactions to tinker with, and worlds to imagine.
 
-<details>
-  <summary><strong>A small easter egg</strong></summary>
-  <br>
-  The landscape above is a nod to the Land of Enchantment. The signal belongs to my engineering side; the pixel explorer belongs to my game dev side. They share the same little world.
-  <br><br>
-  This profile is an experiment too. Its artwork lives right here in the repository, including both light and dark versions.
-</details>
-
 <br>
 
 <picture>
