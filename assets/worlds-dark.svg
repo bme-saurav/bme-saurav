@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="360" height="276" viewBox="0 0 360 276" role="img" aria-labelledby="title desc">
+<title id="title">Worlds</title><desc id="desc">Leave room to play. Game development.</desc>
+<style>
+text{font-family:'Segoe UI',Arial,sans-serif} .mono{font-family:Consolas,'Courier New',monospace}
+.scan{animation:scan 5s linear infinite} .spark{animation:twinkle 4s ease-in-out infinite} .float{animation:float 6s ease-in-out infinite}
+@keyframes scan{from{stroke-dashoffset:520}to{stroke-dashoffset:0}}
+@keyframes twinkle{0%,100%{opacity:.3}50%{opacity:1}}
+@keyframes float{0%,100%{transform:translateY(0)}50%{transform:translateY(-6px)}}
+@media(prefers-reduced-motion:reduce){.scan,.spark,.float{animation:none}}
+</style>
+<rect x="1" y="1" width="358" height="274" rx="16" fill="#181f30" stroke="#354057"/><text x="26" y="40" font-size="13" fill="#abb3c4" font-weight="400" class="mono" letter-spacing="2">03 / EXPLORE</text><text x="26" y="181" font-size="34" fill="#f2eee6" font-weight="700" letter-spacing="-1">Worlds</text><text x="26" y="218" font-size="21" fill="#bcadff" font-weight="600" >Leave room to play.</text><text x="26" y="251" font-size="16" fill="#abb3c4" font-weight="400" >Game development</text><g fill="none" stroke="#bcadff" stroke-width="2.5" stroke-linejoin="round"><path d="M114 81L177 53L240 81L177 111Z"/><path d="M114 81V113L177 143L240 113V81M177 111V143"/>
+<path d="M143 68L208 96M145 96L208 67" opacity=".5"/><path d="M255 65H271M263 57V73M87 112H99M93 106V118"/>
+<path class="spark" d="M177 32V42M172 37H182"/></g>
+</svg>

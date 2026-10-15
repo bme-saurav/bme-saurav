@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="540" viewBox="0 0 1200 540" role="img" aria-labelledby="title desc">
+<title id="title">Saurav&#x27;s personal lab</title><desc id="desc">Serious systems. Playful possibilities. A biomedical signal floats above an original pixel desert landscape, with a moon, mesas, cacti, and a tiny explorer.</desc>
+<style>
+text{font-family:'Segoe UI',Arial,sans-serif} .mono{font-family:Consolas,'Courier New',monospace}
+.scan{animation:scan 5s linear infinite} .spark{animation:twinkle 4s ease-in-out infinite} .float{animation:float 6s ease-in-out infinite}
+@keyframes scan{from{stroke-dashoffset:520}to{stroke-dashoffset:0}}
+@keyframes twinkle{0%,100%{opacity:.3}50%{opacity:1}}
+@keyframes float{0%,100%{transform:translateY(0)}50%{transform:translateY(-6px)}}
+@media(prefers-reduced-motion:reduce){.scan,.spark,.float{animation:none}}
+</style>
+<defs>
+<linearGradient id="sky" x2="0" y2="1"><stop stop-color="#20213e"/><stop offset="1" stop-color="#624364"/></linearGradient>
+<pattern id="dots" width="24" height="24" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1" fill="#5b6576" opacity=".12"/></pattern>
+<clipPath id="scene"><rect x="712" y="104" width="434" height="344" rx="12"/></clipPath>
+</defs>
+<rect width="1200" height="540" rx="20" fill="#f6f2e9"/>
+<rect width="1200" height="540" rx="20" fill="url(#dots)"/>
+<path d="M44 58H1156M44 484H1156" stroke="#d6d5cf"/>
+<circle cx="51" cy="33" r="4" fill="#087c69"/>
+<text x="66" y="38" font-size="15" fill="#5b6576" font-weight="600" class="mono" letter-spacing="1.5">BME-SAURAV / PERSONAL LAB</text><text x="1154" y="38" font-size="13" fill="#5b6576" font-weight="400" text-anchor="end" class="mono">ENGINEERING × CURIOSITY × PLAY</text><text x="49" y="155" font-size="23" fill="#5b6576" font-weight="400" >Hello, world. I&#x27;m</text><text x="43" y="266" font-size="116" fill="#202c3d" font-weight="750" letter-spacing="-6">Saurav.</text><text x="51" y="334" font-size="42" fill="#202c3d" font-weight="600" letter-spacing="-1">Serious systems.</text><text x="51" y="387" font-size="42" fill="#087c69" font-weight="600" letter-spacing="-1">Playful possibilities.</text><text x="52" y="440" font-size="18" fill="#5b6576" font-weight="400" >Biomedical engineer · Indie hacker · Game dev enthusiast</text><text x="51" y="516" font-size="14" fill="#5b6576" font-weight="400" class="mono" letter-spacing="1">BASED IN THE LAND OF ENCHANTMENT</text><text x="1152" y="516" font-size="14" fill="#5b6576" font-weight="400" text-anchor="end" class="mono">A LITTLE SCIENCE. A LITTLE SIDE QUEST.</text><rect x="700" y="78" width="458" height="382" rx="18" fill="#fffdf8" stroke="#d6d5cf"/>
+<circle cx="720" cy="92" r="3" fill="#db8c87"/><circle cx="732" cy="92" r="3" fill="#dfbd85"/><circle cx="744" cy="92" r="3" fill="#71bca7"/>
+<g clip-path="url(#scene)">
+<rect x="712" y="104" width="434" height="344" fill="url(#sky)"/>
+<circle cx="1059" cy="161" r="29" fill="#f9d2a3"/><circle cx="1048" cy="151" r="29" fill="#282440"/>
+<g fill="#e7d9e9"><path class="spark" d="M765 145h4v4h-4zM890 130h3v3h-3zM996 206h4v4h-4zM1117 128h3v3h-3z"/>
+<path class="spark" style="animation-delay:-2s" d="M825 199h3v3h-3zM964 156h3v3h-3zM1094 227h3v3h-3z"/></g>
+<path d="M712 329V274H744V250H776V274H808V310H840V295H872V265H904V243H936V265H968V301H1000V319H1032V286H1064V260H1096V286H1128V311H1146V448H712Z" fill="#79506d"/>
+<path d="M712 373V333H750V303H789V320H812V352H850V375H914V340H951V318H990V338H1015V375H1062V351H1100V330H1146V448H712Z" fill="#b56f77"/>
+<path d="M712 405H748V389H803V400H863V417H935V400H1000V389H1050V405H1110V393H1146V448H712Z" fill="#e0a08d"/>
+<path d="M712 431H810V423H876V434H987V420H1068V430H1146V448H712Z" fill="#f0c2a2"/>
+<g fill="#3c4c52" shape-rendering="crispEdges"><path d="M1080 359h10v-28h9v34h-9v35h-10v-25h-17v-27h9v17h8z"/><path d="M773 383h8v-24h7v29h-7v22h-8v-17h-10v-20h6v10z"/></g>
+<g shape-rendering="crispEdges"><path d="M943 378h13v13h-13z" fill="#f4d8b4"/><path d="M940 375h19v6h-19z" fill="#43304d"/><path d="M940 391h19v18h-19z" fill="#78e0cf"/><path d="M940 409h7v10h-7zM952 409h7v10h-7z" fill="#43304d"/><path d="M936 394h4v12h-4zM959 394h4v12h-4z" fill="#f4d8b4"/></g>
+<path d="M966 419H983M993 419h9M1012 419h5" stroke="#9c6467" stroke-width="2"/>
+</g><text x="1137" y="96" font-size="10" fill="#5b6576" font-weight="400" class="mono" text-anchor="end">WORLD_01</text><g class="float"><rect x="822" y="221" width="242" height="100" rx="10" fill="#121e2c" stroke="#6ebfae" stroke-opacity=".7"/>
+<path d="M838 254H1048M838 276H1048M838 298H1048M868 247V307M902 247V307M936 247V307M970 247V307M1004 247V307" stroke="#6ebfae" stroke-opacity=".11"/>
+<path d="M838 279H866L877 268L889 289L902 252L916 301L929 279H955L966 268L978 289L991 252L1005 301L1018 279H1048" fill="none" stroke="#71e8c7" stroke-width="2.5"/>
+<path class="scan" d="M838 279H866L877 268L889 289L902 252L916 301L929 279H955L966 268L978 289L991 252L1005 301L1018 279H1048" fill="none" stroke="#f4ffe7" stroke-width="3" stroke-dasharray="30 490"/>
+<text x="838" y="239" font-size="10" fill="#97cdbf" font-weight="400" class="mono">SIGNAL / MEETS / SANDBOX</text></g>
+</svg>

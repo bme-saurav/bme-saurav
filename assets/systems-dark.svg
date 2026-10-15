@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="360" height="276" viewBox="0 0 360 276" role="img" aria-labelledby="title desc">
+<title id="title">Systems</title><desc id="desc">Think in connections. Biomedical engineering.</desc>
+<style>
+text{font-family:'Segoe UI',Arial,sans-serif} .mono{font-family:Consolas,'Courier New',monospace}
+.scan{animation:scan 5s linear infinite} .spark{animation:twinkle 4s ease-in-out infinite} .float{animation:float 6s ease-in-out infinite}
+@keyframes scan{from{stroke-dashoffset:520}to{stroke-dashoffset:0}}
+@keyframes twinkle{0%,100%{opacity:.3}50%{opacity:1}}
+@keyframes float{0%,100%{transform:translateY(0)}50%{transform:translateY(-6px)}}
+@media(prefers-reduced-motion:reduce){.scan,.spark,.float{animation:none}}
+</style>
+<rect x="1" y="1" width="358" height="274" rx="16" fill="#181f30" stroke="#354057"/><text x="26" y="40" font-size="13" fill="#abb3c4" font-weight="400" class="mono" letter-spacing="2">01 / EXPLORE</text><text x="26" y="181" font-size="34" fill="#f2eee6" font-weight="700" letter-spacing="-1">Systems</text><text x="26" y="218" font-size="21" fill="#71e8c7" font-weight="600" >Think in connections.</text><text x="26" y="251" font-size="16" fill="#abb3c4" font-weight="400" >Biomedical engineering</text><g stroke="#71e8c7" fill="#181f30" stroke-width="2"><path d="M38 98H104L141 78H206L243 109H314M104 98L144 124H240" fill="none"/>
+<circle cx="38" cy="98" r="8"/><circle cx="104" cy="98" r="11"/><circle cx="206" cy="78" r="8"/><circle cx="243" cy="109" r="11"/><circle cx="314" cy="109" r="8"/><circle cx="144" cy="124" r="6"/>
+<circle class="spark" cx="243" cy="109" r="4" fill="#71e8c7"/></g>
+</svg>

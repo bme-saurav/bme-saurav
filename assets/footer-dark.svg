@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="92" viewBox="0 0 1200 92" role="img" aria-labelledby="title desc">
+<title id="title">A note to build by</title><desc id="desc">Stay curious. Keep building. Leave room to play.</desc>
+<style>
+text{font-family:'Segoe UI',Arial,sans-serif} .mono{font-family:Consolas,'Courier New',monospace}
+.scan{animation:scan 5s linear infinite} .spark{animation:twinkle 4s ease-in-out infinite} .float{animation:float 6s ease-in-out infinite}
+@keyframes scan{from{stroke-dashoffset:520}to{stroke-dashoffset:0}}
+@keyframes twinkle{0%,100%{opacity:.3}50%{opacity:1}}
+@keyframes float{0%,100%{transform:translateY(0)}50%{transform:translateY(-6px)}}
+@media(prefers-reduced-motion:reduce){.scan,.spark,.float{animation:none}}
+</style>
+<rect width="1200" height="92" rx="12" fill="#101521"/><path d="M30 46H143L155 33L168 59L182 22L197 69L210 46H300" stroke="#71e8c7" stroke-width="2" fill="none"/><text x="1155" y="54" font-size="19" fill="#f2eee6" font-weight="600" class="mono" text-anchor="end" letter-spacing="1">STAY CURIOUS. KEEP BUILDING. LEAVE ROOM TO PLAY.</text>
+</svg>

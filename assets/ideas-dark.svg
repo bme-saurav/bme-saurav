@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="360" height="276" viewBox="0 0 360 276" role="img" aria-labelledby="title desc">
+<title id="title">Side quests</title><desc id="desc">Follow the what-if. Independent experiments.</desc>
+<style>
+text{font-family:'Segoe UI',Arial,sans-serif} .mono{font-family:Consolas,'Courier New',monospace}
+.scan{animation:scan 5s linear infinite} .spark{animation:twinkle 4s ease-in-out infinite} .float{animation:float 6s ease-in-out infinite}
+@keyframes scan{from{stroke-dashoffset:520}to{stroke-dashoffset:0}}
+@keyframes twinkle{0%,100%{opacity:.3}50%{opacity:1}}
+@keyframes float{0%,100%{transform:translateY(0)}50%{transform:translateY(-6px)}}
+@media(prefers-reduced-motion:reduce){.scan,.spark,.float{animation:none}}
+</style>
+<rect x="1" y="1" width="358" height="274" rx="16" fill="#181f30" stroke="#354057"/><text x="26" y="40" font-size="13" fill="#abb3c4" font-weight="400" class="mono" letter-spacing="2">02 / EXPLORE</text><text x="26" y="181" font-size="34" fill="#f2eee6" font-weight="700" letter-spacing="-1">Side quests</text><text x="26" y="218" font-size="21" fill="#ffbe83" font-weight="600" >Follow the what-if.</text><text x="26" y="251" font-size="16" fill="#abb3c4" font-weight="400" >Independent experiments</text><g fill="none" stroke="#ffbe83" stroke-width="2.5" stroke-linecap="round"><path d="M154 112C127 85 151 61 177 61C203 61 227 85 200 112L195 127H159Z"/>
+<path d="M159 134H195M164 141H190M177 115V92M166 86L177 97L188 86M177 43V34M131 57L124 50M223 57L230 50M119 91H109M235 91H245"/>
+<path class="spark" d="M268 68V84M260 76H276M82 115V125M77 120H87"/></g>
+</svg>
