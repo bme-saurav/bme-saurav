@@ -1,5 +1,5 @@
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/hero-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/hero-dark.svg">
   <img src="assets/hero-light.svg" alt="Saurav's personal lab. Biomedical systems, indie ideas, and game development. An animated signal meets a pixel desert under a starry sky." width="100%">
 </picture>
 
